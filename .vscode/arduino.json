@@ -1,0 +1,7 @@
+{
+    "port": "/dev/ttyUSB0",
+    "configuration": "PartitionScheme=default_8MB,FlashMode=qio,FlashFreq=80,UploadSpeed=115200,DebugLevel=none,EraseFlash=none",
+    "board": "esp32:esp32:esp32wrover",
+    "programmer": "esptool",
+    "sketch": "src/main.ino"
+}
